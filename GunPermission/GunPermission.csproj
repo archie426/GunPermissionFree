@@ -11,6 +11,7 @@
     <AssemblyName>GunPermission</AssemblyName>
     <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -38,6 +39,9 @@
     <Reference Include="Assembly-CSharp-firstpass, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
       <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Unturned\Unturned_Data\Managed\Assembly-CSharp-firstpass.dll</HintPath>
     </Reference>
+    <Reference Include="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\Unturned\Unturned_Data\Managed\mscorlib.dll</HintPath>
+    </Reference>
     <Reference Include="Rocket.API, Version=2.6.4.0, Culture=neutral, PublicKeyToken=null">
       <HintPath>..\..\..\..\Users\archi\Downloads\Rocket.Unturned (1)\Rocket.Unturned\Rocket.API.dll</HintPath>
     </Reference>
@@ -61,7 +65,9 @@
   <ItemGroup>
     <Compile Include="GunPermissionConfiguration.cs" />
     <Compile Include="GunPermissionPlugin.cs" />
+    <Compile Include="OverrideMethods.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="RedirectHelper.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
