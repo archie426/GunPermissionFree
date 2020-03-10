@@ -23,12 +23,10 @@ namespace GunPermission
         }
 
         
-        
+        //Scrapped code
+        /*
         public void FixedUpdate() => CheckEquips();
         
-        
-
-        //Once I figure out overriding the netcode for this I shouldn't have to do this tickbased so no more shitty performance
         public static void CheckEquips()
         {
             foreach (SteamPlayer pla in Provider.clients)
@@ -54,6 +52,7 @@ namespace GunPermission
                 
             }
         }
+        */
 
         public static bool CanEquip(UnturnedPlayer rPlayer)
         {
