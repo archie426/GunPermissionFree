@@ -26,7 +26,6 @@ namespace GunPermission
         //Scrapped code
         /*
         public void FixedUpdate() => CheckEquips();
-        
         public static void CheckEquips()
         {
             foreach (SteamPlayer pla in Provider.clients)
