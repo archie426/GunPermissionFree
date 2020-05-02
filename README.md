@@ -1,4 +1,4 @@
-#PLEASE HEAD TO https://github.com/IcePlugins/GunPermission - THIS IS NO LONGER BEING MAINTAINED HERE
+# PLEASE HEAD TO https://github.com/IcePlugins/GunPermission - THIS IS NO LONGER BEING MAINTAINED HERE
 
 # GunPermissionFree
 A free GunPermission plugin
